@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "sass": "^1.80.3"
+  },
+  "scripts": {
+    "css": "sass --watch ./style/libs/kame.scss:./style/css/kame.css"
+  }
+}

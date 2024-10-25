@@ -1,0 +1,760 @@
+.bg-prim {
+  background-color: hsl(240, 34%, 47%) !important;
+}
+
+.bg-prim-d-5 {
+  background-color: hsl(240, 34%, 42%) !important;
+}
+
+.bg-prim-d-10 {
+  background-color: hsl(240, 34%, 37%) !important;
+}
+
+.bg-prim-d-15 {
+  background-color: hsl(240, 34%, 32%) !important;
+}
+
+.bg-prim-d-20 {
+  background-color: hsl(240, 34%, 27%) !important;
+}
+
+.bg-prim-l-5 {
+  background-color: hsl(240, 34%, 52%) !important;
+}
+
+.bg-prim-l-10 {
+  background-color: hsl(240, 34%, 57%) !important;
+}
+
+.bg-prim-l-15 {
+  background-color: hsl(240, 34%, 62%) !important;
+}
+
+.bg-prim-l-20 {
+  background-color: hsl(240, 34%, 67%) !important;
+}
+
+.bg-sec {
+  background-color: hsl(39, 60%, 39%) !important;
+}
+
+.bg-sec-d-5 {
+  background-color: hsl(39, 60%, 34%) !important;
+}
+
+.bg-sec-d-10 {
+  background-color: hsl(39, 60%, 29%) !important;
+}
+
+.bg-sec-d-15 {
+  background-color: hsl(39, 60%, 24%) !important;
+}
+
+.bg-sec-d-20 {
+  background-color: hsl(39, 60%, 19%) !important;
+}
+
+.bg-sec-l-5 {
+  background-color: hsl(39, 60%, 44%) !important;
+}
+
+.bg-sec-l-10 {
+  background-color: hsl(39, 60%, 49%) !important;
+}
+
+.bg-sec-l-15 {
+  background-color: hsl(39, 60%, 54%) !important;
+}
+
+.bg-sec-l-20 {
+  background-color: hsl(39, 60%, 59%) !important;
+}
+
+.bg-tert {
+  background-color: hsl(168, 42%, 33%) !important;
+}
+
+.bg-tert-d-5 {
+  background-color: hsl(168, 42%, 28%) !important;
+}
+
+.bg-tert-d-10 {
+  background-color: hsl(168, 42%, 23%) !important;
+}
+
+.bg-tert-d-15 {
+  background-color: hsl(168, 42%, 18%) !important;
+}
+
+.bg-tert-d-20 {
+  background-color: hsl(168, 42%, 13%) !important;
+}
+
+.bg-tert-l-5 {
+  background-color: hsl(168, 42%, 38%) !important;
+}
+
+.bg-tert-l-10 {
+  background-color: hsl(168, 42%, 43%) !important;
+}
+
+.bg-tert-l-15 {
+  background-color: hsl(168, 42%, 48%) !important;
+}
+
+.bg-tert-l-20 {
+  background-color: hsl(168, 42%, 53%) !important;
+}
+
+.bg-quart {
+  background-color: hsl(300, 52%, 39%) !important;
+}
+
+.bg-quart-d-5 {
+  background-color: hsl(300, 52%, 34%) !important;
+}
+
+.bg-quart-d-10 {
+  background-color: hsl(300, 52%, 29%) !important;
+}
+
+.bg-quart-d-15 {
+  background-color: hsl(300, 52%, 24%) !important;
+}
+
+.bg-quart-d-20 {
+  background-color: hsl(300, 52%, 19%) !important;
+}
+
+.bg-quart-l-5 {
+  background-color: hsl(300, 52%, 44%) !important;
+}
+
+.bg-quart-l-10 {
+  background-color: hsl(300, 52%, 49%) !important;
+}
+
+.bg-quart-l-15 {
+  background-color: hsl(300, 52%, 54%) !important;
+}
+
+.bg-quart-l-20 {
+  background-color: hsl(300, 52%, 59%) !important;
+}
+
+.bg-green {
+  background-color: hsl(120, 74%, 26%) !important;
+}
+
+.bg-green-d-5 {
+  background-color: hsl(120, 74%, 21%) !important;
+}
+
+.bg-green-d-10 {
+  background-color: hsl(120, 74%, 16%) !important;
+}
+
+.bg-green-d-15 {
+  background-color: hsl(120, 74%, 11%) !important;
+}
+
+.bg-green-d-20 {
+  background-color: hsl(120, 74%, 6%) !important;
+}
+
+.bg-green-l-5 {
+  background-color: hsl(120, 74%, 31%) !important;
+}
+
+.bg-green-l-10 {
+  background-color: hsl(120, 74%, 36%) !important;
+}
+
+.bg-green-l-15 {
+  background-color: hsl(120, 74%, 41%) !important;
+}
+
+.bg-green-l-20 {
+  background-color: hsl(120, 74%, 46%) !important;
+}
+
+.bg-red {
+  background-color: hsl(0, 57%, 46%) !important;
+}
+
+.bg-red-d-5 {
+  background-color: hsl(0, 57%, 41%) !important;
+}
+
+.bg-red-d-10 {
+  background-color: hsl(0, 57%, 36%) !important;
+}
+
+.bg-red-d-15 {
+  background-color: hsl(0, 57%, 31%) !important;
+}
+
+.bg-red-d-20 {
+  background-color: hsl(0, 57%, 26%) !important;
+}
+
+.bg-red-l-5 {
+  background-color: hsl(0, 57%, 51%) !important;
+}
+
+.bg-red-l-10 {
+  background-color: hsl(0, 57%, 56%) !important;
+}
+
+.bg-red-l-15 {
+  background-color: hsl(0, 57%, 61%) !important;
+}
+
+.bg-red-l-20 {
+  background-color: hsl(0, 57%, 66%) !important;
+}
+
+.bg-yellow {
+  background-color: hsl(60, 88%, 47%) !important;
+}
+
+.bg-yellow-d-5 {
+  background-color: hsl(60, 88%, 42%) !important;
+}
+
+.bg-yellow-d-10 {
+  background-color: hsl(60, 88%, 37%) !important;
+}
+
+.bg-yellow-d-15 {
+  background-color: hsl(60, 88%, 32%) !important;
+}
+
+.bg-yellow-d-20 {
+  background-color: hsl(60, 88%, 27%) !important;
+}
+
+.bg-yellow-l-5 {
+  background-color: hsl(60, 88%, 52%) !important;
+}
+
+.bg-yellow-l-10 {
+  background-color: hsl(60, 88%, 57%) !important;
+}
+
+.bg-yellow-l-15 {
+  background-color: hsl(60, 88%, 62%) !important;
+}
+
+.bg-yellow-l-20 {
+  background-color: hsl(60, 88%, 67%) !important;
+}
+
+.bg-blue {
+  background-color: hsl(240, 65%, 46%) !important;
+}
+
+.bg-blue-d-5 {
+  background-color: hsl(240, 65%, 41%) !important;
+}
+
+.bg-blue-d-10 {
+  background-color: hsl(240, 65%, 36%) !important;
+}
+
+.bg-blue-d-15 {
+  background-color: hsl(240, 65%, 31%) !important;
+}
+
+.bg-blue-d-20 {
+  background-color: hsl(240, 65%, 26%) !important;
+}
+
+.bg-blue-l-5 {
+  background-color: hsl(240, 65%, 46%) !important;
+}
+
+.bg-blue-l-10 {
+  background-color: hsl(240, 65%, 51%) !important;
+}
+
+.bg-blue-l-15 {
+  background-color: hsl(240, 65%, 56%) !important;
+}
+
+.bg-blue-l-20 {
+  background-color: hsl(240, 65%, 61%) !important;
+}
+
+.bg-gray {
+  background-color: hsl(0, 0%, 49%) !important;
+}
+
+.bg-gray-d-5 {
+  background-color: hsl(0, 0%, 44%) !important;
+}
+
+.bg-gray-d-10 {
+  background-color: hsl(0, 0%, 39%) !important;
+}
+
+.bg-gray-d-15 {
+  background-color: hsl(0, 0%, 34%) !important;
+}
+
+.bg-gray-d-20 {
+  background-color: hsl(0, 0%, 29%) !important;
+}
+
+.bg-gray-l-5 {
+  background-color: hsl(0, 0%, 54%) !important;
+}
+
+.bg-gray-l-10 {
+  background-color: hsl(0, 0%, 59%) !important;
+}
+
+.bg-gray-l-15 {
+  background-color: hsl(0, 0%, 64%) !important;
+}
+
+.bg-gray-l-20 {
+  background-color: hsl(0, 0%, 69%) !important;
+}
+
+.bg-white {
+  background-color: hsl(0, 0%, 100%) !important;
+}
+
+.bg-white-d-5 {
+  background-color: hsl(0, 0%, 95%) !important;
+}
+
+.bg-white-d-10 {
+  background-color: hsl(0, 0%, 90%) !important;
+}
+
+.bg-white-d-15 {
+  background-color: hsl(0, 0%, 85%) !important;
+}
+
+.bg-white-d-20 {
+  background-color: hsl(0, 0%, 80%) !important;
+}
+
+.bg-black {
+  background-color: hsl(0, 0%, 0%) !important;
+}
+
+.bg-black-l-5 {
+  background-color: hsl(0, 0%, 5%) !important;
+}
+
+.bg-black-l-10 {
+  background-color: hsl(0, 0%, 10%) !important;
+}
+
+.bg-black-l-15 {
+  background-color: hsl(0, 0%, 15%) !important;
+}
+
+.bg-black-l-20 {
+  background-color: hsl(0, 0%, 20%) !important;
+}
+
+.t-col-prim {
+  color: hsl(240, 34%, 47%) !important;
+}
+
+.t-col-prim-d-5 {
+  color: hsl(240, 34%, 42%) !important;
+}
+
+.t-col-prim-d-10 {
+  color: hsl(240, 34%, 37%) !important;
+}
+
+.t-col-prim-d-15 {
+  color: hsl(240, 34%, 32%) !important;
+}
+
+.t-col-prim-d-20 {
+  color: hsl(240, 34%, 27%) !important;
+}
+
+.t-col-prim-l-5 {
+  color: hsl(240, 34%, 52%) !important;
+}
+
+.t-col-prim-l-10 {
+  color: hsl(240, 34%, 57%) !important;
+}
+
+.t-col-prim-l-15 {
+  color: hsl(240, 34%, 62%) !important;
+}
+
+.t-col-prim-l-20 {
+  color: hsl(240, 34%, 67%) !important;
+}
+
+.t-col-sec {
+  color: hsl(39, 60%, 39%) !important;
+}
+
+.t-col-sec-d-5 {
+  color: hsl(39, 60%, 34%) !important;
+}
+
+.t-col-sec-d-10 {
+  color: hsl(39, 60%, 29%) !important;
+}
+
+.t-col-sec-d-15 {
+  color: hsl(39, 60%, 24%) !important;
+}
+
+.t-col-sec-d-20 {
+  color: hsl(39, 60%, 19%) !important;
+}
+
+.t-col-sec-l-5 {
+  color: hsl(39, 60%, 44%) !important;
+}
+
+.t-col-sec-l-10 {
+  color: hsl(39, 60%, 49%) !important;
+}
+
+.t-col-sec-l-15 {
+  color: hsl(39, 60%, 54%) !important;
+}
+
+.t-col-sec-l-20 {
+  color: hsl(39, 60%, 59%) !important;
+}
+
+.t-col-tert {
+  color: hsl(168, 42%, 33%) !important;
+}
+
+.t-col-tert-d-5 {
+  color: hsl(168, 42%, 28%) !important;
+}
+
+.t-col-tert-d-10 {
+  color: hsl(168, 42%, 23%) !important;
+}
+
+.t-col-tert-d-15 {
+  color: hsl(168, 42%, 18%) !important;
+}
+
+.t-col-tert-d-20 {
+  color: hsl(168, 42%, 13%) !important;
+}
+
+.t-col-tert-l-5 {
+  color: hsl(168, 42%, 38%) !important;
+}
+
+.t-col-tert-l-10 {
+  color: hsl(168, 42%, 43%) !important;
+}
+
+.t-col-tert-l-15 {
+  color: hsl(168, 42%, 48%) !important;
+}
+
+.t-col-tert-l-20 {
+  color: hsl(168, 42%, 53%) !important;
+}
+
+.t-col-quart {
+  color: hsl(300, 52%, 39%) !important;
+}
+
+.t-col-quart-d-5 {
+  color: hsl(300, 52%, 34%) !important;
+}
+
+.t-col-quart-d-10 {
+  color: hsl(300, 52%, 29%) !important;
+}
+
+.t-col-quart-d-15 {
+  color: hsl(300, 52%, 24%) !important;
+}
+
+.t-col-quart-d-20 {
+  color: hsl(300, 52%, 19%) !important;
+}
+
+.t-col-quart-l-5 {
+  color: hsl(300, 52%, 44%) !important;
+}
+
+.t-col-quart-l-10 {
+  color: hsl(300, 52%, 49%) !important;
+}
+
+.t-col-quart-l-15 {
+  color: hsl(300, 52%, 54%) !important;
+}
+
+.t-col-quart-l-20 {
+  color: hsl(300, 52%, 59%) !important;
+}
+
+.t-col-green {
+  color: hsl(120, 74%, 26%) !important;
+}
+
+.t-col-green-d-5 {
+  color: hsl(120, 74%, 21%) !important;
+}
+
+.t-col-green-d-10 {
+  color: hsl(120, 74%, 16%) !important;
+}
+
+.t-col-green-d-15 {
+  color: hsl(120, 74%, 11%) !important;
+}
+
+.t-col-green-d-20 {
+  color: hsl(120, 74%, 6%) !important;
+}
+
+.t-col-green-l-5 {
+  color: hsl(120, 74%, 31%) !important;
+}
+
+.t-col-green-l-10 {
+  color: hsl(120, 74%, 36%) !important;
+}
+
+.t-col-green-l-15 {
+  color: hsl(120, 74%, 41%) !important;
+}
+
+.t-col-green-l-20 {
+  color: hsl(120, 74%, 46%) !important;
+}
+
+.t-col-red {
+  color: hsl(0, 57%, 46%) !important;
+}
+
+.t-col-red-d-5 {
+  color: hsl(0, 57%, 41%) !important;
+}
+
+.t-col-red-d-10 {
+  color: hsl(0, 57%, 36%) !important;
+}
+
+.t-col-red-d-15 {
+  color: hsl(0, 57%, 31%) !important;
+}
+
+.t-col-red-d-20 {
+  color: hsl(0, 57%, 26%) !important;
+}
+
+.t-col-red-l-5 {
+  color: hsl(0, 57%, 51%) !important;
+}
+
+.t-col-red-l-10 {
+  color: hsl(0, 57%, 56%) !important;
+}
+
+.t-col-red-l-15 {
+  color: hsl(0, 57%, 61%) !important;
+}
+
+.t-col-red-l-20 {
+  color: hsl(0, 57%, 66%) !important;
+}
+
+.t-col-yellow {
+  color: hsl(60, 88%, 47%) !important;
+}
+
+.t-col-yellow-d-5 {
+  color: hsl(60, 88%, 42%) !important;
+}
+
+.t-col-yellow-d-10 {
+  color: hsl(60, 88%, 37%) !important;
+}
+
+.t-col-yellow-d-15 {
+  color: hsl(60, 88%, 32%) !important;
+}
+
+.t-col-yellow-d-20 {
+  color: hsl(60, 88%, 27%) !important;
+}
+
+.t-col-yellow-l-5 {
+  color: hsl(60, 88%, 52%) !important;
+}
+
+.t-col-yellow-l-10 {
+  color: hsl(60, 88%, 57%) !important;
+}
+
+.t-col-yellow-l-15 {
+  color: hsl(60, 88%, 62%) !important;
+}
+
+.t-col-yellow-l-20 {
+  color: hsl(60, 88%, 67%) !important;
+}
+
+.t-col-blue {
+  color: hsl(240, 65%, 46%) !important;
+}
+
+.t-col-blue-d-5 {
+  color: hsl(240, 65%, 41%) !important;
+}
+
+.t-col-blue-d-10 {
+  color: hsl(240, 65%, 36%) !important;
+}
+
+.t-col-blue-d-15 {
+  color: hsl(240, 65%, 31%) !important;
+}
+
+.t-col-blue-d-20 {
+  color: hsl(240, 65%, 26%) !important;
+}
+
+.t-col-blue-l-5 {
+  color: hsl(240, 65%, 46%) !important;
+}
+
+.t-col-blue-l-10 {
+  color: hsl(240, 65%, 51%) !important;
+}
+
+.t-col-blue-l-15 {
+  color: hsl(240, 65%, 56%) !important;
+}
+
+.t-col-blue-l-20 {
+  color: hsl(240, 65%, 61%) !important;
+}
+
+.t-col-gray {
+  color: hsl(0, 0%, 49%) !important;
+}
+
+.t-col-gray-d-5 {
+  color: hsl(0, 0%, 44%) !important;
+}
+
+.t-col-gray-d-10 {
+  color: hsl(0, 0%, 39%) !important;
+}
+
+.t-col-gray-d-15 {
+  color: hsl(0, 0%, 34%) !important;
+}
+
+.t-col-gray-d-20 {
+  color: hsl(0, 0%, 29%) !important;
+}
+
+.t-col-gray-l-5 {
+  color: hsl(0, 0%, 54%) !important;
+}
+
+.t-col-gray-l-10 {
+  color: hsl(0, 0%, 59%) !important;
+}
+
+.t-col-gray-l-15 {
+  color: hsl(0, 0%, 64%) !important;
+}
+
+.t-col-gray-l-20 {
+  color: hsl(0, 0%, 69%) !important;
+}
+
+.t-col-white {
+  color: hsl(0, 0%, 100%) !important;
+}
+
+.t-col-white-d-5 {
+  color: hsl(0, 0%, 95%) !important;
+}
+
+.t-col-white-d-10 {
+  color: hsl(0, 0%, 90%) !important;
+}
+
+.t-col-white-d-15 {
+  color: hsl(0, 0%, 85%) !important;
+}
+
+.t-col-white-d-20 {
+  color: hsl(0, 0%, 80%) !important;
+}
+
+.t-col-black {
+  color: hsl(0, 0%, 0%) !important;
+}
+
+.t-col-black-l-5 {
+  color: hsl(0, 0%, 5%) !important;
+}
+
+.t-col-black-l-10 {
+  color: hsl(0, 0%, 10%) !important;
+}
+
+.t-col-black-l-15 {
+  color: hsl(0, 0%, 15%) !important;
+}
+
+.t-col-black-l-20 {
+  color: hsl(0, 0%, 20%) !important;
+}
+
+:root {
+  --kame-s-bp: 0px;
+  --kame-sm-bp: 576px;
+  --kame-md-bp: 768px;
+  --kame-l-bp: 992px;
+  --kame-xl-bp: 1200px;
+  --kame-xxl-bp: 1400px;
+}
+
+:root {
+  --prim-col: hsl(var(--prim-col-h-val), var(--prim-col-s-val), var(--prim-col-l-val));
+  --sec-col: hsl(var(--sec-col-h-val), var(--sec-col-s-val), var(--sec-col-l-val));
+  --tert-col: hsl(var(--tert-col-h-val), var(--tert-col-s-val), var(--tert-col-l-val));
+  --quart-col: hsl(var(--quart-col-h-val), var(--quart-col-s-val), var(--quart-col-l-val));
+  --green-col: hsl(var(--green-col-h-val), var(--green-col-s-val), var(--green-col-l-val));
+  --red-col: hsl(var(--red-col-h-val), var(--red-col-s-val), var(--red-col-l-val));
+  --yellow-col: hsl(var(--yellow-col-h-val), var(--yellow-col-s-val), var(--yellow-col-l-val));
+  --blue-col: hsl(var(--blue-col-h-val), var(--blue-col-s-val), var(--blue-col-l-val));
+  --gray-col: hsl(var(--gray-col-h-val), var(--gray-col-s-val), var(--gray-col-l-val));
+  --white-col: hsl(var(--white-col-h-val), var(--white-col-s-val), var(--white-col-l-val));
+  --black-col: hsl(var(--black-col-h-val), var(--black-col-s-val), var(--black-col-l-val));
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  outline: none;
+}
+
+/*# sourceMappingURL=kame.css.map */

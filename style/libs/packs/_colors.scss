@@ -1,0 +1,56 @@
+
+
+// FOR BACKGROUND-COLOR:
+@mixin bg-col($h, $s, $l) {
+    background-color: hsl($h, $s, $l) !important;
+}
+// FOR TEXT-COLOR:
+@mixin t-col($h, $s, $l) {
+    color: hsl($h, $s, $l) !important;
+}
+
+// WHEN CHANGING THE COLORS, USE THEIR HSL VALUES AND SPLIT THEM AMONG THREE
+// VARIABLES:
+$prim-col-h-val: 240;
+$prim-col-s-val: 34;
+$prim-col-l-val: 47;
+
+$sec-col-h-val: 39;
+$sec-col-s-val: 60;
+$sec-col-l-val: 39;
+
+$tert-col-h-val: 168;
+$tert-col-s-val: 42;
+$tert-col-l-val: 33;
+
+$quart-col-h-val: 300;
+$quart-col-s-val: 52;
+$quart-col-l-val: 39;
+
+$green-col-h-val: 120;
+$green-col-s-val: 74;
+$green-col-l-val: 26;
+
+$red-col-h-val: 0;
+$red-col-s-val: 57;
+$red-col-l-val: 46;
+
+$yellow-col-h-val: 60;
+$yellow-col-s-val: 88;
+$yellow-col-l-val: 47;
+
+$blue-col-h-val: 240;
+$blue-col-s-val: 65;
+$blue-col-l-val: 46;
+
+$gray-col-h-val: 0;
+$gray-col-s-val: 0;
+$gray-col-l-val: 49;
+
+$white-col-h-val: 0;
+$white-col-s-val: 0;
+$white-col-l-val: 100;
+
+$black-col-h-val: 0;
+$black-col-s-val: 0;
+$black-col-l-val: 0;
