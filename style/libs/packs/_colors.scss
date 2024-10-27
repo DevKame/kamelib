@@ -8,6 +8,10 @@
 @mixin t-col($h, $s, $l) {
     color: hsl($h, $s, $l) !important;
 }
+// FOR BORDER-COLOR:
+@mixin bord-col($h, $s, $l) {
+    border-color: hsl($h, $s, $l) !important;
+}
 
 // WHEN CHANGING THE COLORS, USE THEIR HSL VALUES AND SPLIT THEM AMONG THREE
 // VARIABLES:
@@ -54,3 +58,16 @@ $white-col-l-val: 100;
 $black-col-h-val: 0;
 $black-col-s-val: 0;
 $black-col-l-val: 0;
+
+// THE PURE COLOR CODES FOR USING AS CONVERSION INTO CSS -VARIABLES:
+$prim: hsl($prim-col-h-val, $prim-col-s-val * 1%, $prim-col-l-val * 1%);
+$sec: hsl($sec-col-h-val, $sec-col-s-val * 1%, $sec-col-l-val * 1%);
+$tert: hsl($tert-col-h-val, $tert-col-s-val * 1%, $tert-col-l-val * 1%);
+$quart: hsl($quart-col-h-val, $quart-col-s-val * 1%, $quart-col-l-val * 1%);
+$green: hsl($green-col-h-val, $green-col-s-val * 1%, $green-col-l-val * 1%);
+$red: hsl($red-col-h-val, $red-col-s-val * 1%, $red-col-l-val * 1%);
+$yellow: hsl($yellow-col-h-val, $yellow-col-s-val * 1%, $yellow-col-l-val * 1%);
+$blue: hsl($blue-col-h-val, $blue-col-s-val * 1%, $blue-col-l-val * 1%);
+$gray: hsl($gray-col-h-val, $gray-col-s-val * 1%, $gray-col-l-val * 1%);
+$white: hsl($white-col-h-val, $white-col-s-val * 1%, $white-col-l-val * 1%);
+$black: hsl($black-col-h-val, $black-col-s-val * 1%, $black-col-l-val * 1%);

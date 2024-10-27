@@ -1,5 +1,5 @@
 
 
-h3 {
-    color: var(--prim-col) !important;
+.first {
+    background-color: var(--green-col);
 }

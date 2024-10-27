@@ -1,18 +1,19 @@
 
 @import "./colors";
 
+//TODO: HOW DO I ACCOMPLISH HAVING THE COLORS AS NORMAL CSS VARIABLES TOO?
 :root {
-    --prim-col: hsl(var(--prim-col-h-val), var(--prim-col-s-val), var(--prim-col-l-val));
-    --sec-col: hsl(var(--sec-col-h-val), var(--sec-col-s-val), var(--sec-col-l-val));
-    --tert-col: hsl(var(--tert-col-h-val), var(--tert-col-s-val), var(--tert-col-l-val));
-    --quart-col: hsl(var(--quart-col-h-val), var(--quart-col-s-val), var(--quart-col-l-val));
-    --green-col: hsl(var(--green-col-h-val), var(--green-col-s-val), var(--green-col-l-val));
-    --red-col: hsl(var(--red-col-h-val), var(--red-col-s-val), var(--red-col-l-val));
-    --yellow-col: hsl(var(--yellow-col-h-val), var(--yellow-col-s-val), var(--yellow-col-l-val));
-    --blue-col: hsl(var(--blue-col-h-val), var(--blue-col-s-val), var(--blue-col-l-val));
-    --gray-col: hsl(var(--gray-col-h-val), var(--gray-col-s-val), var(--gray-col-l-val));
-    --white-col: hsl(var(--white-col-h-val), var(--white-col-s-val), var(--white-col-l-val));
-    --black-col: hsl(var(--black-col-h-val), var(--black-col-s-val), var(--black-col-l-val));
+    --prim-col: #{$prim};
+    --sec-col: #{$sec};
+    --tert-col: #{$tert};
+    --quart-col: #{$quart};
+    --green-col: #{$green};
+    --red-col: #{$red};
+    --yellow-col: #{$yellow};
+    --blue-col: #{$blue};
+    --gray-col: #{$gray};
+    --white-col: #{$white};
+    --black-col: #{$black};
 }
 * {
     margin: 0;
