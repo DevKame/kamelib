@@ -1,0 +1,52 @@
+
+@import "./breakpoints";
+
+
+@media screen and (min-width: #{$kame-s-bp * 1px}) {
+    .d-n {
+        display: none! important;
+    }
+    .d-b {
+        display: block !important;
+    }
+}
+@media screen and (min-width: #{$kame-sm-bp * 1px}) {
+    .d-sm-n {
+        display: none! important;
+    }
+    .d-sm-b {
+        display: block !important;
+    }
+}
+@media screen and (min-width: #{$kame-md-bp * 1px}) {
+    .d-md-n {
+        display: none! important;
+    }
+    .d-md-b {
+        display: block !important;
+    }
+}
+@media screen and (min-width: #{$kame-lg-bp * 1px}) {
+    .d-lg-n {
+        display: none! important;
+    }
+    .d-lg-b {
+        display: block !important;
+    }
+}
+@media screen and (min-width: #{$kame-xl-bp * 1px}) {
+    .d-xl-n {
+        display: none! important;
+    }
+    .d-xl-b {
+        display: block !important;
+    }
+}
+@media screen and (min-width: #{$kame-xxl-bp * 1px}) {
+    .d-xxl-n {
+        display: none! important;
+    }
+    .d-xxl-b {
+        display: block !important;
+    }
+}
