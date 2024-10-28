@@ -3,3 +3,10 @@
 .first {
     background-color: var(--green-col);
 }
+.flex-wrapper {
+    height: 300px;
+}
+.el {
+    width: 40px;
+    aspect-ratio: 1;
+}
