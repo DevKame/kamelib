@@ -6992,18 +6992,353 @@
   --kame-xxl-bp: 1400px;
 }
 
+.f {
+  position: absolute;
+  position: sticky;
+  position: static;
+  position: relative;
+  position: fixed;
+}
+
+:root {
+  --kame-s-bp: 0px;
+  --kame-sm-bp: 576px;
+  --kame-md-bp: 768px;
+  --kame-l-bp: 992px;
+  --kame-xl-bp: 1200px;
+  --kame-xxl-bp: 1400px;
+}
+
+@media screen and (min-width: 0px) {
+  .pos-sta {
+    position: static !important;
+  }
+  .pos-r {
+    position: relative !important;
+  }
+  .pos-a {
+    position: absolute !important;
+  }
+  .pos-f {
+    position: fixed !important;
+  }
+  .pos-sti {
+    position: sticky !important;
+  }
+}
+@media screen and (min-width: 0px) and (min-aspect-ratio: 1) {
+  .pos-AR-sta {
+    position: static !important;
+  }
+  .pos-AR-r {
+    position: relative !important;
+  }
+  .pos-AR-a {
+    position: absolute !important;
+  }
+  .pos-AR-f {
+    position: fixed !important;
+  }
+  .pos-AR-sti {
+    position: sticky !important;
+  }
+}
+@media screen and (min-width: 576px) {
+  .pos-sm-sta {
+    position: static !important;
+  }
+  .pos-sm-r {
+    position: relative !important;
+  }
+  .pos-sm-a {
+    position: absolute !important;
+  }
+  .pos-sm-f {
+    position: fixed !important;
+  }
+  .pos-sm-sti {
+    position: sticky !important;
+  }
+}
+@media screen and (min-width: 576px) and (min-aspect-ratio: 1) {
+  .pos-AR-sm-sta {
+    position: static !important;
+  }
+  .pos-AR-sm-r {
+    position: relative !important;
+  }
+  .pos-AR-sm-a {
+    position: absolute !important;
+  }
+  .pos-AR-sm-f {
+    position: fixed !important;
+  }
+  .pos-AR-sm-sti {
+    position: sticky !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  .pos-md-sta {
+    position: static !important;
+  }
+  .pos-md-r {
+    position: relative !important;
+  }
+  .pos-md-a {
+    position: absolute !important;
+  }
+  .pos-md-f {
+    position: fixed !important;
+  }
+  .pos-md-sti {
+    position: sticky !important;
+  }
+}
+@media screen and (min-width: 768px) and (min-aspect-ratio: 1) {
+  .pos-AR-md-sta {
+    position: static !important;
+  }
+  .pos-AR-md-r {
+    position: relative !important;
+  }
+  .pos-AR-md-a {
+    position: absolute !important;
+  }
+  .pos-AR-md-f {
+    position: fixed !important;
+  }
+  .pos-AR-md-sti {
+    position: sticky !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  .pos-md-sta {
+    position: static !important;
+  }
+  .pos-md-r {
+    position: relative !important;
+  }
+  .pos-md-a {
+    position: absolute !important;
+  }
+  .pos-md-f {
+    position: fixed !important;
+  }
+  .pos-md-sti {
+    position: sticky !important;
+  }
+}
+@media screen and (min-width: 768px) and (min-aspect-ratio: 1) {
+  .pos-AR-md-sta {
+    position: static !important;
+  }
+  .pos-AR-md-r {
+    position: relative !important;
+  }
+  .pos-AR-md-a {
+    position: absolute !important;
+  }
+  .pos-AR-md-f {
+    position: fixed !important;
+  }
+  .pos-AR-md-sti {
+    position: sticky !important;
+  }
+}
+@media screen and (min-width: 992px) {
+  .pos-lg-sta {
+    position: static !important;
+  }
+  .pos-lg-r {
+    position: relative !important;
+  }
+  .pos-lg-a {
+    position: absolute !important;
+  }
+  .pos-lg-f {
+    position: fixed !important;
+  }
+  .pos-lg-sti {
+    position: sticky !important;
+  }
+}
+@media screen and (min-width: 992px) and (min-aspect-ratio: 1) {
+  .pos-AR-lg-sta {
+    position: static !important;
+  }
+  .pos-AR-lg-r {
+    position: relative !important;
+  }
+  .pos-AR-lg-a {
+    position: absolute !important;
+  }
+  .pos-AR-lg-f {
+    position: fixed !important;
+  }
+  .pos-AR-lg-sti {
+    position: sticky !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .pos-xl-sta {
+    position: static !important;
+  }
+  .pos-xl-r {
+    position: relative !important;
+  }
+  .pos-xl-a {
+    position: absolute !important;
+  }
+  .pos-xl-f {
+    position: fixed !important;
+  }
+  .pos-xl-sti {
+    position: sticky !important;
+  }
+}
+@media screen and (min-width: 1200px) and (min-aspect-ratio: 1) {
+  .pos-AR-xl-sta {
+    position: static !important;
+  }
+  .pos-AR-xl-r {
+    position: relative !important;
+  }
+  .pos-AR-xl-a {
+    position: absolute !important;
+  }
+  .pos-AR-xl-f {
+    position: fixed !important;
+  }
+  .pos-AR-xl-sti {
+    position: sticky !important;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .pos-xxl-sta {
+    position: static !important;
+  }
+  .pos-xxl-r {
+    position: relative !important;
+  }
+  .pos-xxl-a {
+    position: absolute !important;
+  }
+  .pos-xxl-f {
+    position: fixed !important;
+  }
+  .pos-xxl-sti {
+    position: sticky !important;
+  }
+}
+@media screen and (min-width: 1400px) and (min-aspect-ratio: 1) {
+  .pos-AR-xxl-sta {
+    position: static !important;
+  }
+  .pos-AR-xxl-r {
+    position: relative !important;
+  }
+  .pos-AR-xxl-a {
+    position: absolute !important;
+  }
+  .pos-AR-xxl-f {
+    position: fixed !important;
+  }
+  .pos-AR-xxl-sti {
+    position: sticky !important;
+  }
+}
 :root {
   --prim-col: hsl(240, 34%, 47%);
+  --prim-col-d-5: hsl(240, 34%, 42%);
+  --prim-col-d-10: hsl(240, 34%, 37%);
+  --prim-col-d-15: hsl(240, 34%, 32%);
+  --prim-col-d-20: hsl(240, 34%, 27%);
+  --prim-col-l-5: hsl(240, 34%, 52%);
+  --prim-col-l-10: hsl(240, 34%, 57%);
+  --prim-col-l-15: hsl(240, 34%, 62%);
+  --prim-col-l-20: hsl(240, 34%, 67%);
   --sec-col: hsl(39, 60%, 39%);
+  --sec-col-d-5: hsl(39, 60%, 34%);
+  --sec-col-d-10: hsl(39, 60%, 29%);
+  --sec-col-d-15: hsl(39, 60%, 24%);
+  --sec-col-d-20: hsl(39, 60%, 19%);
+  --sec-col-l-5: hsl(39, 60%, 44%);
+  --sec-col-l-10: hsl(39, 60%, 49%);
+  --sec-col-l-15: hsl(39, 60%, 54%);
+  --sec-col-l-20: hsl(39, 60%, 59%);
   --tert-col: hsl(168, 42%, 33%);
+  --tert-col-d-5: hsl(168, 42%, 28%);
+  --tert-col-d-10: hsl(168, 42%, 23%);
+  --tert-col-d-15: hsl(168, 42%, 18%);
+  --tert-col-d-20: hsl(168, 42%, 13%);
+  --tert-col-l-5: hsl(168, 42%, 38%);
+  --tert-col-l-10: hsl(168, 42%, 43%);
+  --tert-col-l-15: hsl(168, 42%, 48%);
+  --tert-col-l-20: hsl(168, 42%, 53%);
   --quart-col: hsl(300, 52%, 39%);
+  --quart-col-d-5: hsl(300, 52%, 34%);
+  --quart-col-d-10: hsl(300, 52%, 29%);
+  --quart-col-d-15: hsl(300, 52%, 24%);
+  --quart-col-d-20: hsl(300, 52%, 19%);
+  --quart-col-l-5: hsl(300, 52%, 44%);
+  --quart-col-l-10: hsl(300, 52%, 49%);
+  --quart-col-l-15: hsl(300, 52%, 54%);
+  --quart-col-l-20: hsl(300, 52%, 59%);
   --green-col: hsl(120, 74%, 26%);
+  --green-col-d-5: hsl(120, 74%, 21%);
+  --green-col-d-10: hsl(120, 74%, 16%);
+  --green-col-d-15: hsl(120, 74%, 11%);
+  --green-col-d-20: hsl(120, 74%, 6%);
+  --green-col-l-5: hsl(120, 74%, 31%);
+  --green-col-l-10: hsl(120, 74%, 36%);
+  --green-col-l-15: hsl(120, 74%, 41%);
+  --green-col-l-20: hsl(120, 74%, 46%);
   --red-col: hsl(0, 57%, 46%);
+  --red-col-d-5: hsl(0, 57%, 41%);
+  --red-col-d-10: hsl(0, 57%, 36%);
+  --red-col-d-15: hsl(0, 57%, 31%);
+  --red-col-d-20: hsl(0, 57%, 26%);
+  --red-col-l-5: hsl(0, 57%, 51%);
+  --red-col-l-10: hsl(0, 57%, 56%);
+  --red-col-l-15: hsl(0, 57%, 61%);
+  --red-col-l-20: hsl(0, 57%, 66%);
   --yellow-col: hsl(60, 88%, 47%);
+  --yellow-col-d-5: hsl(60, 88%, 42%);
+  --yellow-col-d-10: hsl(60, 88%, 37%);
+  --yellow-col-d-15: hsl(60, 88%, 32%);
+  --yellow-col-d-20: hsl(60, 88%, 27%);
+  --yellow-col-l-5: hsl(60, 88%, 52%);
+  --yellow-col-l-10: hsl(60, 88%, 57%);
+  --yellow-col-l-15: hsl(60, 88%, 62%);
+  --yellow-col-l-20: hsl(60, 88%, 67%);
   --blue-col: hsl(240, 65%, 46%);
+  --blue-col-d-5: hsl(240, 65%, 41%);
+  --blue-col-d-10: hsl(240, 65%, 36%);
+  --blue-col-d-15: hsl(240, 65%, 31%);
+  --blue-col-d-20: hsl(240, 65%, 26%);
+  --blue-col-l-5: hsl(240, 65%, 51%);
+  --blue-col-l-10: hsl(240, 65%, 56%);
+  --blue-col-l-15: hsl(240, 65%, 61%);
+  --blue-col-l-20: hsl(240, 65%, 66%);
   --gray-col: hsl(0, 0%, 49%);
+  --gray-col-d-5: hsl(0, 0%, 44%);
+  --gray-col-d-10: hsl(0, 0%, 39%);
+  --gray-col-d-15: hsl(0, 0%, 34%);
+  --gray-col-d-20: hsl(0, 0%, 29%);
+  --gray-col-l-5: hsl(0, 0%, 54%);
+  --gray-col-l-10: hsl(0, 0%, 59%);
+  --gray-col-l-15: hsl(0, 0%, 64%);
+  --gray-col-l-20: hsl(0, 0%, 69%);
   --white-col: hsl(0, 0%, 100%);
+  --white-col-d-5: hsl(0, 0%, 95%);
+  --white-col-d-10: hsl(0, 0%, 90%);
+  --white-col-d-15: hsl(0, 0%, 85%);
+  --white-col-d-20: hsl(0, 0%, 80%);
   --black-col: hsl(0, 0%, 0%);
+  --black-col-l-5: hsl(0, 0%, 5%);
+  --black-col-l-10: hsl(0, 0%, 10%);
+  --black-col-l-15: hsl(0, 0%, 15%);
+  --black-col-l-20: hsl(0, 0%, 20%);
 }
 
 * {
