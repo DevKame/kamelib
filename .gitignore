@@ -1,4 +1,5 @@
 /node_modules
-*.json
-*.html
+*package-lock.json
+*package.json
+index.html
 /style/css
