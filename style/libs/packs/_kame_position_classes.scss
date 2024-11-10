@@ -1,14 +1,5 @@
 
 
-
-.f {
-    position:absolute;
-    position:sticky;
-    position:static;
-    position:relative;
-    position:fixed;
-}
-
 @import "./kame_breakpoints";
 
 $values: static, relative, absolute, fixed, sticky;

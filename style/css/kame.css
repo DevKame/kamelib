@@ -7136,14 +7136,6 @@
   --kame-xxl-bp: 1400px;
 }
 
-.f {
-  position: absolute;
-  position: sticky;
-  position: static;
-  position: relative;
-  position: fixed;
-}
-
 :root {
   --kame-s-bp: 0px;
   --kame-sm-bp: 576px;
