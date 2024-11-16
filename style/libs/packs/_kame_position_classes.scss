@@ -1,7 +1,5 @@
 
 
-@import "./kame_breakpoints";
-
 $values: static, relative, absolute, fixed, sticky;
 
 @media screen and (min-width: #{$kame-s-bp * 1px}) {
