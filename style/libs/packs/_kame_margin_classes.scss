@@ -1,9 +1,9 @@
 
-@import "./kame_breakpoints";
+@use "./kame_breakpoints";
 $suffices: "", "x", "y", "t", "e", "b", "s";
 
 
-@media screen and (min-width: #{$kame-s-bp * 1px}) {
+@media screen and (min-width: #{kame_breakpoints.$kame-s-bp * 1px}) {
     :root {
         --mval1: 4px;
         --mval2: 8px;
@@ -14,7 +14,7 @@ $suffices: "", "x", "y", "t", "e", "b", "s";
 
     @each $suffix in $suffices {
         @for $i from 0 through 5 {
-            .p#{$suffix}-#{$i} {
+            .m#{$suffix}-#{$i} {
                 @if $i == 0 {
                     @if $suffix == "" {
                         margin-top: 0 !important;
@@ -185,7 +185,7 @@ $suffices: "", "x", "y", "t", "e", "b", "s";
                 }
             }
             @if $i == 5 {
-                .p#{$suffix}-auto {
+                .m#{$suffix}-auto {
                     @if $suffix == "" {
                         margin-top: auto !important;
                         margin-right: auto !important;
@@ -219,7 +219,7 @@ $suffices: "", "x", "y", "t", "e", "b", "s";
     @media screen and (min-aspect-ratio: 1) {
         @each $suffix in $suffices {
             @for $i from 0 through 5 {
-                .p#{$suffix}-AR-#{$i} {
+                .m#{$suffix}-AR-#{$i} {
                     @if $i == 0 {
                         @if $suffix == "" {
                             margin-top: 0 !important;
@@ -390,7 +390,7 @@ $suffices: "", "x", "y", "t", "e", "b", "s";
                     }
                 }
                 @if $i == 5 {
-                    .p#{$suffix}-AR-auto {
+                    .m#{$suffix}-AR-auto {
                         @if $suffix == "" {
                             margin-top: auto !important;
                             margin-right: auto !important;
@@ -423,7 +423,7 @@ $suffices: "", "x", "y", "t", "e", "b", "s";
         }
     }
 }
-@media screen and (min-width: #{$kame-sm-bp * 1px}) {
+@media screen and (min-width: #{kame_breakpoints.$kame-sm-bp * 1px}) {
     :root {
         --mval1: 8px;
         --mval2: 12px;
@@ -434,7 +434,7 @@ $suffices: "", "x", "y", "t", "e", "b", "s";
 
     @each $suffix in $suffices {
         @for $i from 0 through 5 {
-            .p#{$suffix}-sm-#{$i} {
+            .m#{$suffix}-sm-#{$i} {
                 @if $i == 0 {
                     @if $suffix == "" {
                         margin-top: 0 !important;
@@ -605,7 +605,7 @@ $suffices: "", "x", "y", "t", "e", "b", "s";
                 }
             }
             @if $i == 5 {
-                .p#{$suffix}-sm-auto {
+                .m#{$suffix}-sm-auto {
                     @if $suffix == "" {
                         margin-top: auto !important;
                         margin-right: auto !important;
@@ -639,7 +639,7 @@ $suffices: "", "x", "y", "t", "e", "b", "s";
     @media screen and (min-aspect-ratio: 1) {
         @each $suffix in $suffices {
             @for $i from 0 through 5 {
-                .p#{$suffix}-AR-sm-#{$i} {
+                .m#{$suffix}-AR-sm-#{$i} {
                     @if $i == 0 {
                         @if $suffix == "" {
                             margin-top: 0 !important;
@@ -810,7 +810,7 @@ $suffices: "", "x", "y", "t", "e", "b", "s";
                     }
                 }
                 @if $i == 5 {
-                    .p#{$suffix}-AR-sm-auto {
+                    .m#{$suffix}-AR-sm-auto {
                         @if $suffix == "" {
                             margin-top: auto !important;
                             margin-right: auto !important;
@@ -843,7 +843,7 @@ $suffices: "", "x", "y", "t", "e", "b", "s";
         }
     }
 }
-@media screen and (min-width: #{$kame-md-bp * 1px}) {
+@media screen and (min-width: #{kame_breakpoints.$kame-md-bp * 1px}) {
     :root {
         --mval1: 12px;
         --mval2: 16px;
@@ -854,7 +854,7 @@ $suffices: "", "x", "y", "t", "e", "b", "s";
 
     @each $suffix in $suffices {
         @for $i from 0 through 5 {
-            .p#{$suffix}-md-#{$i} {
+            .m#{$suffix}-md-#{$i} {
                 @if $i == 0 {
                     @if $suffix == "" {
                         margin-top: 0 !important;
@@ -1025,7 +1025,7 @@ $suffices: "", "x", "y", "t", "e", "b", "s";
                 }
             }
             @if $i == 5 {
-                .p#{$suffix}-md-auto {
+                .m#{$suffix}-md-auto {
                     @if $suffix == "" {
                         margin-top: auto !important;
                         margin-right: auto !important;
@@ -1059,7 +1059,7 @@ $suffices: "", "x", "y", "t", "e", "b", "s";
     @media screen and (min-aspect-ratio: 1) {
         @each $suffix in $suffices {
             @for $i from 0 through 5 {
-                .p#{$suffix}-AR-md-#{$i} {
+                .m#{$suffix}-AR-md-#{$i} {
                     @if $i == 0 {
                         @if $suffix == "" {
                             margin-top: 0 !important;
@@ -1230,7 +1230,7 @@ $suffices: "", "x", "y", "t", "e", "b", "s";
                     }
                 }
                 @if $i == 5 {
-                    .p#{$suffix}-AR-md-auto {
+                    .m#{$suffix}-AR-md-auto {
                         @if $suffix == "" {
                             margin-top: auto !important;
                             margin-right: auto !important;
@@ -1263,7 +1263,7 @@ $suffices: "", "x", "y", "t", "e", "b", "s";
         }
     }
 }
-@media screen and (min-width: #{$kame-lg-bp * 1px}) {
+@media screen and (min-width: #{kame_breakpoints.$kame-lg-bp * 1px}) {
     :root {
         --mval1: 16px;
         --mval2: 20px;
@@ -1274,7 +1274,7 @@ $suffices: "", "x", "y", "t", "e", "b", "s";
 
     @each $suffix in $suffices {
         @for $i from 0 through 5 {
-            .p#{$suffix}-lg-#{$i} {
+            .m#{$suffix}-lg-#{$i} {
                 @if $i == 0 {
                     @if $suffix == "" {
                         margin-top: 0 !important;
@@ -1445,7 +1445,7 @@ $suffices: "", "x", "y", "t", "e", "b", "s";
                 }
             }
             @if $i == 5 {
-                .p#{$suffix}-lg-auto {
+                .m#{$suffix}-lg-auto {
                     @if $suffix == "" {
                         margin-top: auto !important;
                         margin-right: auto !important;
@@ -1479,7 +1479,7 @@ $suffices: "", "x", "y", "t", "e", "b", "s";
     @media screen and (min-aspect-ratio: 1) {
         @each $suffix in $suffices {
             @for $i from 0 through 5 {
-                .p#{$suffix}-AR-lg-#{$i} {
+                .m#{$suffix}-AR-lg-#{$i} {
                     @if $i == 0 {
                         @if $suffix == "" {
                             margin-top: 0 !important;
@@ -1650,7 +1650,7 @@ $suffices: "", "x", "y", "t", "e", "b", "s";
                     }
                 }
                 @if $i == 5 {
-                    .p#{$suffix}-AR-lg-auto {
+                    .m#{$suffix}-AR-lg-auto {
                         @if $suffix == "" {
                             margin-top: auto !important;
                             margin-right: auto !important;
@@ -1683,7 +1683,7 @@ $suffices: "", "x", "y", "t", "e", "b", "s";
         }
     }
 }
-@media screen and (min-width: #{$kame-xl-bp * 1px}) {
+@media screen and (min-width: #{kame_breakpoints.$kame-xl-bp * 1px}) {
     :root {
         --mval1: 20px;
         --mval2: 24px;
@@ -1694,7 +1694,7 @@ $suffices: "", "x", "y", "t", "e", "b", "s";
 
     @each $suffix in $suffices {
         @for $i from 0 through 5 {
-            .p#{$suffix}-xl-#{$i} {
+            .m#{$suffix}-xl-#{$i} {
                 @if $i == 0 {
                     @if $suffix == "" {
                         margin-top: 0 !important;
@@ -1865,7 +1865,7 @@ $suffices: "", "x", "y", "t", "e", "b", "s";
                 }
             }
             @if $i == 5 {
-                .p#{$suffix}-xl-auto {
+                .m#{$suffix}-xl-auto {
                     @if $suffix == "" {
                         margin-top: auto !important;
                         margin-right: auto !important;
@@ -1899,7 +1899,7 @@ $suffices: "", "x", "y", "t", "e", "b", "s";
     @media screen and (min-aspect-ratio: 1) {
         @each $suffix in $suffices {
             @for $i from 0 through 5 {
-                .p#{$suffix}-AR-xl-#{$i} {
+                .m#{$suffix}-AR-xl-#{$i} {
                     @if $i == 0 {
                         @if $suffix == "" {
                             margin-top: 0 !important;
@@ -2070,7 +2070,7 @@ $suffices: "", "x", "y", "t", "e", "b", "s";
                     }
                 }
                 @if $i == 5 {
-                    .p#{$suffix}-AR-xl-auto {
+                    .m#{$suffix}-AR-xl-auto {
                         @if $suffix == "" {
                             margin-top: auto !important;
                             margin-right: auto !important;
@@ -2103,7 +2103,7 @@ $suffices: "", "x", "y", "t", "e", "b", "s";
         }
     }
 }
-@media screen and (min-width: #{$kame-xxl-bp * 1px}) {
+@media screen and (min-width: #{kame_breakpoints.$kame-xxl-bp * 1px}) {
     :root {
         --mval1: 24px;
         --mval2: 28px;
@@ -2114,7 +2114,7 @@ $suffices: "", "x", "y", "t", "e", "b", "s";
 
     @each $suffix in $suffices {
         @for $i from 0 through 5 {
-            .p#{$suffix}-xxl-#{$i} {
+            .m#{$suffix}-xxl-#{$i} {
                 @if $i == 0 {
                     @if $suffix == "" {
                         margin-top: 0 !important;
@@ -2285,7 +2285,7 @@ $suffices: "", "x", "y", "t", "e", "b", "s";
                 }
             }
             @if $i == 5 {
-                .p#{$suffix}-xxl-auto {
+                .m#{$suffix}-xxl-auto {
                     @if $suffix == "" {
                         margin-top: auto !important;
                         margin-right: auto !important;
@@ -2319,7 +2319,7 @@ $suffices: "", "x", "y", "t", "e", "b", "s";
     @media screen and (min-aspect-ratio: 1) {
         @each $suffix in $suffices {
             @for $i from 0 through 5 {
-                .p#{$suffix}-AR-xxl-#{$i} {
+                .m#{$suffix}-AR-xxl-#{$i} {
                     @if $i == 0 {
                         @if $suffix == "" {
                             margin-top: 0 !important;
@@ -2490,7 +2490,7 @@ $suffices: "", "x", "y", "t", "e", "b", "s";
                     }
                 }
                 @if $i == 5 {
-                    .p#{$suffix}-AR-xxl-auto {
+                    .m#{$suffix}-AR-xxl-auto {
                         @if $suffix == "" {
                             margin-top: auto !important;
                             margin-right: auto !important;
