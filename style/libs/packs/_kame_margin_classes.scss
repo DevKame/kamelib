@@ -1,9 +1,9 @@
 
-@import "./kame_breakpoints";
+@use "./kame_breakpoints";
 $suffices: "", "x", "y", "t", "e", "b", "s";
 
 
-@media screen and (min-width: #{$kame-s-bp * 1px}) {
+@media screen and (min-width: #{kame_breakpoints.$kame-s-bp * 1px}) {
     :root {
         --mval1: 4px;
         --mval2: 8px;
@@ -423,7 +423,7 @@ $suffices: "", "x", "y", "t", "e", "b", "s";
         }
     }
 }
-@media screen and (min-width: #{$kame-sm-bp * 1px}) {
+@media screen and (min-width: #{kame_breakpoints.$kame-sm-bp * 1px}) {
     :root {
         --mval1: 8px;
         --mval2: 12px;
@@ -843,7 +843,7 @@ $suffices: "", "x", "y", "t", "e", "b", "s";
         }
     }
 }
-@media screen and (min-width: #{$kame-md-bp * 1px}) {
+@media screen and (min-width: #{kame_breakpoints.$kame-md-bp * 1px}) {
     :root {
         --mval1: 12px;
         --mval2: 16px;
@@ -1263,7 +1263,7 @@ $suffices: "", "x", "y", "t", "e", "b", "s";
         }
     }
 }
-@media screen and (min-width: #{$kame-lg-bp * 1px}) {
+@media screen and (min-width: #{kame_breakpoints.$kame-lg-bp * 1px}) {
     :root {
         --mval1: 16px;
         --mval2: 20px;
@@ -1683,7 +1683,7 @@ $suffices: "", "x", "y", "t", "e", "b", "s";
         }
     }
 }
-@media screen and (min-width: #{$kame-xl-bp * 1px}) {
+@media screen and (min-width: #{kame_breakpoints.$kame-xl-bp * 1px}) {
     :root {
         --mval1: 20px;
         --mval2: 24px;
@@ -2103,7 +2103,7 @@ $suffices: "", "x", "y", "t", "e", "b", "s";
         }
     }
 }
-@media screen and (min-width: #{$kame-xxl-bp * 1px}) {
+@media screen and (min-width: #{kame_breakpoints.$kame-xxl-bp * 1px}) {
     :root {
         --mval1: 24px;
         --mval2: 28px;
